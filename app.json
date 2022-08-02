@@ -1,0 +1,166 @@
+{
+  "name": "💃 Queen-Elisa V2💃",
+  "description": "whatsapp md bot build with nodejs",
+  "repository": "https://github.com/DarkMakerofc/Queen-Elisa-MD",
+  "logo": "https://i.ibb.co/ZWctf3M/Queen-Elisa-Git-Lo-Go.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+  "env": {
+
+"APP_NAME": {
+  "description": "HEROKU APP NAME",
+  "required": true
+},
+
+"HEROKU_API": {
+  "description": "HEROKU API KEY",
+  "required": true
+},
+
+"OWNER_NUMBER" :{
+  "description" : "OWNER NUMBER",
+  "requred" : false,
+  "value" :"94715166712"
+  },
+
+ "ALIVE_MESSAGE" :{
+  "description" : "your alive massage",
+  "requred" : false
+  },
+
+"CAPTION" :{
+  "description" : "Add your caption",
+  "requred" : false
+  },
+  
+  "SEND_WELCOME_MASSAGE" :{
+  "description" : "Send Welcome And Good bye message [ true / false]",
+  "requred" : false,
+    "value" "false"
+  },
+
+  "LANGUAGE" :{
+  "descrption" : "Select your Bot Language [ SI - sinhala / EN - english ]",
+  "requred" : true,
+  "value" : "EN"
+  },
+
+  "ANTI_LINK" :{
+  "description" : "Remove group link sender [ true / false ]",
+  "requred" : false,
+  "value" : "false"
+  },
+
+  "BOT_NAME" :{
+  "description" : "Type your bot name",
+  "requred" : false,
+  "value" :"𝐐𝐮𝐞𝐞𝐧 𝐄𝐥𝐢𝐬𝐚 𝐕2"
+  },
+
+  "OWNER_NAME" :{
+  "description" : "Type bot owner name",
+  "requred" : false,
+  "value" :"ＭＲ ＮＩＭＡ"
+  },
+
+  "STICKER_PACK_NAME" :{
+  "description" : "Type sticker package name",
+  "requred" : true,
+  "value" :"𝙌𝙪𝙚𝙚𝙣 𝙀𝙡𝙞𝙨𝙖 𝙑2"
+  },
+
+  "STICKER_AUTHOR_NAME" :{
+  "description" : "Type stcker autor name",
+  "requred" : true,
+  "value" :"ＭＲ.ＮＩＭＡ ＯＦＣ"
+  },
+
+  "ALIVE_LOGO" :{
+  "description" : "Elisa Bot Alive Logo",
+  "requred" : true,
+  "value" :"https://telegra.ph/file/1a2dee71baa975091620d.jpg"
+  },
+
+  "WELCOME_MSG" :{
+  "description" : "welcome massage",
+  "requred" : false,
+  "value" :""
+  },
+
+  "GOODBYE_MSG" :{
+  "description" : "welcome massage",
+  "requred" : false,
+  "value" :""
+  },
+
+  "SUCCESS_MSG" :{
+  "description" : "Type your success massage",
+  "requred" : true,
+  "value" :"YOUR WORK DONE !"
+  },
+
+  "ADMIN_MSG" :{
+  "description" : "Type admin only massage",
+  "requred" : true,
+  "value" :"This command is admin only command"
+  },
+
+  "WAIT_MSG" :{
+  "description" : "Type waiting massage",
+  "requred" : true,
+  "value" :"please wait..."
+  },
+
+  "EXTRA_API" :{
+  "description" : "Api get from  this web site fro fb downloader 2 and ytshort downloader",
+  "requred" : true,
+  "value" :"    "
+  },
+
+  "PREFA" :{
+  "description" : "Add your caption",
+  "requred" : true,
+  "value" :"['#','!','/','']"
+  },
+
+  "AUTO_BIO" :{
+  "description" : "if you want show time and date on your whatsapp bio",
+  "requred" : true,
+  "value" :"on"
+  },
+
+  "INBOX_BLOCK" :{
+  "description" : "Block inbox users [ on / off ]",
+  "requred" : true,
+  "value" :"off"
+  },
+
+  "AUTO_REACT" :{
+  "description" : "Auto react on some imojis and words [ true / false ]",
+  "requred" : true,
+  "value" :"true"
+  },
+"INBOX_BLOCK_MSG" :{
+  "description" : "INBOX USER BLOCK MASSAGE",
+  "requred" : true,
+  "value" :"false"
+  }
+  },
+
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+   "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
