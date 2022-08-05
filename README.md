@@ -3,11 +3,18 @@
 <div align="center">
   <img src="https://i.ibb.co/ZWctf3M/Queen-Elisa-Git-Lo-Go.jpg" width="300" height="300">
   
-# 🧚 ◍ Queen Elisa MD ◍ 🧚
+# 🧚 ◍ Queen Elisa MD - V2 ◍ 🧚
 <div align="center">
-Queen Elisa is simple Multi divece whatsapp bot in srilanka Made By DarkMaker Base is cheems bot. 
+Queen Elisa is simple Multi divece whatsapp bot in srilanka Made By DarkMaker Base is tuna bot. 
 
 <div align="left">
+
+
+### VISIT QUEEN ELISA WEBSITE
+
+
+<a href="https://"><img align="center" src="https://i.imgur.com/t1fC4oE.jpeg" alt="Fork and deploy" height="35" width="150" /></a>
+
 
 #### ```How To deploy ```
 1. Fork This repo
@@ -43,3 +50,8 @@ Queen Elisa is simple Multi divece whatsapp bot in srilanka Made By DarkMaker Ba
 # 
  
 ``` THANKS TO  ALL HELPERS 💞```
++ [𝚂𝙻 𝚁𝙴𝙰𝙻𝚃𝙴𝙲𝙷]() | Fro website
++ [𝚂𝙰𝙽𝚄𝚆𝙰]()  | Helps
++ [𝚃𝙷𝙸𝙽𝚄𝚁𝙰]()  | Helps
++ [𝙸𝚂𝚄𝚁𝚄]() | Helps
+
