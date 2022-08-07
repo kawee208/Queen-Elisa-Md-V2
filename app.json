@@ -35,7 +35,7 @@
   "SEND_WELCOME_MASSAGE" :{
   "description" : "Send Welcome And Good bye message [ true / false]",
   "requred" : false,
-    "value" "false"
+    "value" : "false"
   },
 
   "LANGUAGE" :{
@@ -139,6 +139,20 @@
   "requred" : true,
   "value" :"true"
   },
+
+"ANTI_BADWORD" :{
+  "description" : "Remove Bad words senders [ true / false ]",
+  "requred" : true,
+  "value" :"true"
+  },
+
+"BAD_KICK_MASSAGE" :{
+  "description" : "Bad kick Message",
+  "requred" : true,
+  "value" :"true"
+  },
+
+
 "INBOX_BLOCK_MSG" :{
   "description" : "INBOX USER BLOCK MASSAGE",
   "requred" : true,
